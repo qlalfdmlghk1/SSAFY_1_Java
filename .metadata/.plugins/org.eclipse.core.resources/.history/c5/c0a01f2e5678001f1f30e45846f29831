@@ -1,0 +1,30 @@
+package com.ssafy.day02.a_person;
+
+public class Person {
+
+	String name;
+	int age;
+	boolean isHungry;
+	
+	public Person(String name, int age) {
+	
+	public Person(String name, int age, boolean isHungry) {
+		this.name = name;
+		this.age = age;
+		this.isHungry = isHungry;
+	}
+	
+	void eat() {
+		System.out.println("냠냠");
+		this.isHungry = false;
+	}
+	
+	void work() {
+		System.out.println("열심");
+		this.isHungry = true;
+	}
+	
+	void printInfo() {
+		System.out.println(name+ " : " + age + " : " + isHungry);
+	}
+}
