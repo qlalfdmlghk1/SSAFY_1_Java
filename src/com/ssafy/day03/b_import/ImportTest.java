@@ -1,18 +1,30 @@
 package com.ssafy.day03.b_import;
 
-// TODO: import 되는 패키지들을 살펴보자.
+import java.io.File;
+import java.text.DateFormat;
+import java.util.Date;
+import java.util.List;
 
+// TODO: import 되는 패키지들을 살펴보자.
+import static java.lang.System.out;
 // END
 
 public class ImportTest {
     // TODO: 다음의 요청 사항들을 처리하시오.
     //  1. Object 타입의 객체를 선언해보자. import 되는 내용은?
+	Object obj;
+	
     //  2. code assist를 통해 DateFormat 타입의 객체를 선언해보자.
+	DateFormat format;
+	
     //  3. 아래 주석을 해지하고 오류를 수정해보자.
-    //  File file;
-    //  Date date;
+    File file;
+    Date date;
+      
     //  4. java.awt 패키지의 List 타입 변수를 선언해보자.
+    java.awt.List l1;
     //  5. java.util 패키지의 List 타입 변수를 선언해보자.
+    List l2;
 
     // END
     public static void main(String[] args) {
